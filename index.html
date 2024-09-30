@@ -19,8 +19,9 @@
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style-alert.css">
 
-
+  
     <style>
         
         h1, h2 {
@@ -32,6 +33,11 @@
         }
         .section {
             margin-bottom: 20px;
+        }
+
+        .logo{
+            width: 100px!important;
+
         }
     </style>
 
@@ -59,8 +65,8 @@
                         <div class="header-cta">
                             <ul>
                                 <li><a><i class="fal fa-clock"></i> Lun – Vie: 8.00 – 18.00</a></li>
-                                <li><a><i class="fal fa-clock"></i> Sab – Dom: 9.00 – 12.00</a></li>
-                                <li><a><i class="icon-phone"></i>(288)-120-9736</a></li>
+                                <li><a><i class="fal fa-clock"></i> Sab: 9.00 – 12.00</a></li>
+                                <li><a><i class="icon-phone"></i>+52(229)-132-4289</a></li>
                             </ul>
                         </div>
                     </div>
@@ -71,10 +77,10 @@
 
                             <div class="social-profile">
                                 <ul>
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <!--<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>-->
+                                    <li><a href="https://wa.me/522291324289?text=Necesito%20informaci%C3%B3n%20de..." target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/victor-hugo-cruz-francisco-a310a0191?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -100,15 +106,15 @@
                                     <li>
                                         <a href="#inicio">Inicio</a>
                                     </li>
-                                    <li>
+                                    <!--<li>
                                         <a href="#servicios">Servicios</a>
-                                    </li>
+                                    </li>--> 
                                     <li>
                                         <a href="#nosotros">Quiénes somos</a>
                                     </li>
             
                                     <li>
-                                        <a href="#portafolios">Portafolio</a>
+                                        <a href="#portafolios">Servicios</a>
                                     </li>
             
                                   
@@ -132,7 +138,7 @@
                                     </div>
                                 </form>
                             </div>
-                            <a href="https://wa.me/52881209736?text=Necesito%20informaci%C3%B3n%20de..." target="_blank" class="theme-btn btn__2 d-none d-sm-block">Obtenga una cotización <i class="far fa-chevron-double-right"></i></a>
+                            <a href="https://wa.me/52291324289?text=Necesito%20informaci%C3%B3n%20de..." target="_blank" class="theme-btn btn__2 d-none d-sm-block">Obtenga una cotización <i class="far fa-chevron-double-right"></i></a>
                             <div class="mobile-nav-bar d-block ml-3 ml-sm-5 d-xl-none">
                                 <div class="mobile-nav-wrap">
                                     <div id="hamburger" class="color-primary">
@@ -160,15 +166,15 @@
                         <li>
                             <a href="#inicio">Inicio</a>
                         </li>
-                        <li>
+                       <!--<li>
                             <a href="#servicios">Servicios</a>
-                        </li>
+                        </li>--> 
                         <li>
                             <a href="#nosotros">Quiénes somos</a>
                         </li>
 
                         <li>
-                            <a href="#portafolios">Portafolio</a>
+                            <a href="#portafolios">Servicios</a>
                         </li>
 
                       
@@ -206,10 +212,11 @@
                         <h6 class="color-black mb-5">Siguenos:</h6>
 
                         <ul>
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                           <!--<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                             <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>--> 
+                            <li><a href="https://wa.me/522291324289?text=Necesito%20informaci%C3%B3n%20de..." target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/victor-hugo-cruz-francisco-a310a0191?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -307,7 +314,7 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-danger" onclick="cerrarModal()">Cerrar</button>
-          <button type="button" class="btn btn-primary">Mas información</button>
+          <a type="button" href="https://wa.me/52291324289?text=Necesito%20informaci%C3%B3n%20de..." target="_blank" class="btn btn-primary">Mas información</a>
         </div>
       </div>
     </div>
@@ -321,7 +328,7 @@
 
     <!-- employee-friendly start -->
 
-    <section class="employee__wrapper section-padding_3 overflow-hidden" id="servicios">
+    <section class="employee__wrapper section-padding_3 overflow-hidden" id="servicios" style="display: none;">
         <div class="container">
             <div class="row align-items-center mb-30">
                 <div class="col-lg-8 col-md-8">
@@ -330,19 +337,13 @@
                         <h2>Servicio amigable para tu <span>empresa</span></h2>
                     </div>
                 </div>
-                <!---
-                <div class="col-lg-4 col-md-4 text-start text-md-end mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                    <a href="#" class="theme-btn btn__2 btn_sm__2">Ver todos los servicios <i class="far fa-chevron-double-right"></i></a>
-                </div>-->
+       
             </div>
             <div class="row">
 
                 <div class="col-lg-6 col-md-6 col-12 mt-30">
                     <div class="single_card_item text-center wow fadeInUp" data-wow-delay=".3s">
-                        <!---
-                        <div class="card_img">
-                            <img src="./assets/img/home-4/card_01.png" alt="">
-                        </div>-->
+                
                         <div class="card_content ">
                             <div class="content">
                                 <h4></h4>
@@ -400,9 +401,9 @@
 
     <!-- company-skill start -->
 
-    <section class="company-skill company-skill-home-3 pb-xs-80 pt-xs-80 pt-sm-100 pb-sm-100 pt-md-100 pb-md-100 pt-120 pb-90 overflow-hidden" id="nosotros">
+    <section class="company-skill company-skill-home-3 pb-xs-80 pt-xs-80 pt-sm-100 pb-sm-100 pt-md-100 pb-md-100 pt-120 pb-90 overflow-hidden" id="nosotros" >
         <div class="container">
-            <a href="https://www.youtube.com/watch?v=9xwazD5SyVg" class="popup-video" data-effect="mfp-move-from-top"><i class="icon-play"></i></a>
+            <!--<a href="https://www.youtube.com/watch?v=9xwazD5SyVg" class="popup-video" data-effect="mfp-move-from-top"><i class="icon-play"></i></a>-->
             <div class="row">
                 <div class="col-lg-3 col-sm-6">
                     <div class="our-company__meida wow fadeInUp" data-wow-delay=".3s">
@@ -452,30 +453,9 @@
                                 <li>Crecimiento </li>
                                 <li>Confianza</li>
                             </ul>
-                            <div class="area__item d-flex align-items-center">
-                                <div class="icon">
-                                    <i class="icon-support-2"></i>
-                                </div>
-
-                                <div class="text_2 text-start">
-                                    <div class="number"><span class="counter">250</span>+</div>
-                                    <div class="description">Colaboradores</div>
-                                </div>
-                            </div>
+                           
                         </div>
 
-                        <!---
-                        <div class="author_element d-flex align-items-center justify-content-between" style="display: none;">
-                            <div class="author d-flex align-items-center">
-                                <div class="author_img bg-contain bg-cover" style="background-image: url(./assets/img/home-4/man.png);"></div>
-                                <div class="author_name">
-                                    <h5>Tanjila Farin</h5>
-                                    <p>Company, Ceo</p>
-                                </div>
-                            </div>
-                            <a href="#" class="theme-btn">Read More <i class="far fa-chevron-double-right"></i></a>
-                        </div>
-                    -->
                     </div>
                 </div>
             </div>
@@ -535,7 +515,7 @@
                                 <i class="icon-teamwork-1"></i>
                             </div>
                         </div>
-                        <h4>Pptimiza tus procesos de compra</h4>
+                        <h4>Optimiza tus procesos de compra</h4>
                         <p>Te ayudamos a seleccionar los mejores proveedores y optimizar tus procesos de compra. </p>
                     </div>
                 </div>
@@ -546,7 +526,7 @@
             <div class="row align-items-center section-padding_3">
                 <div class="col-lg-8 col-md-8">
                     <div class="section-title wow fadeInUp" data-wow-delay=".3s">
-                        <h5> <img src="./assets/img/team-details/badge-line.svg" alt>Nuestro portafolio</h5>
+                        <h5> <img src="./assets/img/team-details/badge-line.svg" alt>Nuestros servicios</h5>
                         <h2>Muestra de trabajos  <span>sorprendentes</span></h2>
                     </div>
                 </div>
@@ -563,557 +543,39 @@
         <div class=" our-porfolio__slider__2 mt-30 wow fadeInUp" data-wow-delay=".5s">
             <div class="slider-item">
                 <div class="our-project__item overflow-hidden">
-                    <img src="assets/img/portfolio/portfolio-1.png" alt="">
-
-                    <div class="content d-flex align-items-center justify-content-between">
-                        <div class="text">
-                            
-                            <h5 class="title color-secondary">Ahorros</h5>
-                            <span class="fw-500 color-primary d-block mb-10 text-uppercase" style="text-align: justify;">
-
-                                Mediante compras estratégicas se obtendrán ahorros en las adquisiciones de materiales y
-                                servicios que impactaran en el estado de resultados de la organización. En nuestra
-                                experiencia hemos ayudado en ahorros que van desde el 10% hasta el 20% de los egresos
-                                anuales
-
-                            </span>
-
-                        </div>
-
-                        <a class="theme-btn" ><i class="icon-arrow-right-2"></i></a>
-                    </div>
+                    <img src="assets/img/portfolio/ahorros.png" alt="">
                 </div>
             </div>
 
             <div class="slider-item">
                 <div class="our-project__item overflow-hidden">
-                    <img src="assets/img/portfolio/portfolio-2.png" alt="">
-
-                    <div class="content d-flex align-items-center justify-content-between">
-                        <div class="text">
-                            <span class="fw-500 color-primary d-block mb-10 text-uppercase" style="text-align: justify;">
-                                
-                                <b>Análisis</b><br>
-                                Efectuamos un estudio de la situación de partida para crear la estrategia más conveniente
-                                para cada caso.<br><br>
-                                <b>Estrategia</b><br>
-                                Ponemos en marcha un plan de acción con el objetivo de conseguir la excelencia en las
-                                categorías de compras asignadas facilitando los procesos e identificando las oportunidades.
-
-                                
-                                </span>
-                            <h5 class="title color-secondary">Consultoría de compras</h5>
-                        </div>
-
-                        <a  class="theme-btn" ><i class="icon-arrow-right-2"></i></a>
-                    </div>
+                    <img src="assets/img/portfolio/Consultoria.png" alt="">
                 </div>
             </div>
 
             <div class="slider-item">
                 <div class="our-project__item overflow-hidden">
-                    <img src="assets/img/portfolio/portfolio-3.png" alt="">
-
-                    <div class="content d-flex align-items-center justify-content-between">
-                        <div class="text">
-                            <span class="fw-500 color-primary d-block mb-10 text-uppercase" style="text-align: justify;">
-                                
-                                En nuestros cursos especializados transferimos conocimientos de actualidad que
-                                constituyen la base para el destacado desempeño de cualquier profesional del área de
-                                Compras
-
-                                
-                                </span>
-                            <h5 class="title color-secondary">Cursos de Capacitación </h5>
-                        </div>
-
-                        <a class="theme-btn"><i class="icon-arrow-right-2"></i></a>
-                    </div>
+                    <img src="assets/img/portfolio/Cursos.png" alt="">
                 </div>
             </div>
 
             <div class="slider-item">
                 <div class="our-project__item overflow-hidden">
-                    <img src="assets/img/portfolio/portfolio-1.png" alt="">
-
-                    <div class="content d-flex align-items-center justify-content-between">
-                        <div class="text">
-                            <span class="fw-500 color-primary d-block mb-10 text-uppercase" style="text-align: justify;">
-                                
-                                El objetivo es prevenir, detectar, evaluar e investigar profundamente actividades
-                                fraudulentas en el seno de las empresas como fraude, corrupción, salida de efectivo,
-                                competencia desleal, conflictos de intereses u otro tipo
-                                
-                                </span>
-                            <h5 class="title color-secondary">Forensic</h5>
-                        </div>
-
-                        <a class="theme-btn" ><i class="icon-arrow-right-2"></i></a>
-                    </div>
+                    <img src="assets/img/portfolio/Forensic.png" alt="">
                 </div>
             </div>
 
             <div class="slider-item">
                 <div class="our-project__item overflow-hidden">
-                    <img src="assets/img/portfolio/portfolio-2.png" alt="">
-
-                    <div class="content d-flex align-items-center justify-content-between">
-                        <div class="text">
-                            <span class="fw-500 color-primary d-block mb-10 text-uppercase" style="text-align: justify;">
-
-                                Realizar entrevista a los candidatos finales para un proceso de selección de un puesto en el
-                                área de compras con la finalidad de elegir al candidato más apto al puesto con base a un
-                                perfil técnico y humano.
-
-                                
-                                </span>
-                            <h5 class="title color-secondary">Apoyo en entrevistas a candidatos de compras</h5>
-                        </div>
-
-                        <a class="theme-btn" ><i class="icon-arrow-right-2"></i></a>
-                    </div>
+                    <img src="assets/img/portfolio/Apoyo.png" alt="">
                 </div>
             </div>
-
-       
         </div>
     </section>
     <!-- protfolio_wrapper end -->
 
-    <!-- our-team start -->
+ 
 
-    <section class="our-team our-team-home-3 pb-xs-80 pt-xs-80 pt-sm-100 pb-sm-100 pt-md-100 pb-md-100 pt-120 pb-120 overflow-hidden" style="display:none">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="our-team__content mb-65 mb-md-50 mb-sm-40 mb-xs-30 text-center wow fadeInUp" data-wow-delay=".3s">
-                        <span class="sub-title fw-500 color-primary text-uppercase mb-sm-10 mb-xs-5 mb-15 d-block"><img src="assets/img/team-details/badge-line.svg" class="img-fluid mr-10" alt=""> Nuestro equipo</span>
-                        <h2 class="title color-d_black">Conozca a nuestro equipo de <span>trabajo</span></h2>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row mb-minus-30">
-                <div class="col-xxl-3 col-lg-4 col-md-6">
-                    <div class="team-item team-about-item text-center mb-30 d-block overflow-hidden wow fadeInUp" data-wow-delay=".3s">
-                        <div class="media media_2">
-                            <img src="assets/img/about/about-member-1.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="icons_team">
-                            <div class="content">
-                                <h5>Stephen Larry</h5>
-                                <p>Product Manager</p>
-                            </div>
-                            <div class="icon">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xxl-3 col-lg-4 col-md-6">
-                    <div class="team-item team-about-item text-center mb-30 d-block overflow-hidden wow fadeInUp" data-wow-delay=".5s">
-                        <div class="media media_2">
-                            <img src="assets/img/about/about-member-1.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="icons_team">
-                            <div class="content">
-                                <h5>Stephen Larry</h5>
-                                <p>Product Manager</p>
-                            </div>
-                            <div class="icon">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xxl-3 col-lg-4 col-md-6">
-                    <div class="team-item team-about-item text-center mb-30 d-block overflow-hidden wow fadeInUp" data-wow-delay=".7s">
-                        <div class="media media_2">
-                            <img src="assets/img/about/about-member-1.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="icons_team">
-                            <div class="content">
-                                <h5>Stephen Larry</h5>
-                                <p>Product Manager</p>
-                            </div>
-                            <div class="icon">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xxl-3 col-lg-4 col-md-6">
-                    <div class="team-item team-about-item text-center mb-30 d-block overflow-hidden wow fadeInUp" data-wow-delay=".9s">
-                        <div class="media media_2">
-                            <img src="assets/img/about/about-member-1.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="icons_team">
-                            <div class="content">
-                                <h5>Stephen Larry</h5>
-                                <p>Product Manager</p>
-                            </div>
-                            <div class="icon">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-12">
-                    <div class="our-team__btn-wrapper text-center mt-70 mt-md-50 mt-sm-40 mt-xs-30 wow fadeInUp" data-wow-delay=".3s">
-                        <a href="team.html" class="theme-btn btn__2">See All Member <i class="far fa-chevron-double-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- our-team end -->
-
-    <!-- testimonial start -->
-
-    <section class="testimonial bg-dark_white pb-xs-80 pt-xs-80 pt-sm-100 pb-sm-100 pt-md-100 pb-md-100 pt-120 pb-110 overflow-hidden" style="display:none">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="testimonial__content mb-60 mb-md-50 mb-sm-40 mb-xs-30 text-center wow fadeInUp" data-wow-delay=".3s">
-                        <h6 class="sub-title fw-500 color-primary text-uppercase mb-sm-10 mb-xs-5 mb-15"><img src="assets/img/team-details/badge-line.svg" class="img-fluid mr-10" alt=""> Testimonios</h6>
-                        <h2 class="title color-d_black">Comentarios de nuestros <span>Clientes</span></h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="testimonial-slider wow fadeInUp" data-wow-delay=".5s">
-
-                        <div class="slider-item">
-                            <div class="testimonial__item testimonial">
-                                <div class="testimonial__item-header item-header-2 mb-35 mb-sm-25 mb-xs-20">
-                                    <div class="left d-flex align-items-center">
-                                        <div class="media overflow-hidden">
-                                            <img src="assets/img/testimonial/testimonial-1.png" class="img-fluid" alt="">
-                                        </div>
-
-                                        <div class="meta">
-                                            <h5 class="name fw-500 text-uppercase color-d_black">Bm Ashik<span> - Company, Ceo</span></h5>
-                                            <span class="position font-la fw-500 color-d_black"> <img src="assets/img/testimonial/asana.png" alt></a></span>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="description font-la mb-40 mb-md-35 mb-sm-30 mb-xs-25">
-                                    <p>Lorem ipsum Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque accusamus expedita autem eius perspiciatis! Magni! dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                                        et dolore magna aliqua Ut enim ad minim veniam.</p>
-                                </div>
-
-                                <div class="testimonial__item-footer d-flex justify-content-between">
-                                    <div class="right">
-                                        <div class="starts">
-                                            <ul>
-                                                <li><span></span></li>
-                                                <li><span></span></li>
-                                                <li><span></span></li>
-                                                <li><span></span></li>
-                                                <li><span></span></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                    <div class="quote color-primary">
-                                        <i class="fas fa-quote-right"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="slider-item">
-                            <div class="testimonial__item testimonial">
-                                <div class="testimonial__item-header item-header-2 mb-35 mb-sm-25 mb-xs-20">
-                                    <div class="left d-flex align-items-center">
-                                        <div class="media overflow-hidden">
-                                            <img src="assets/img/testimonial/testimonial-2.png" class="img-fluid" alt="">
-                                        </div>
-
-                                        <div class="meta">
-                                            <h5 class="name fw-500 text-uppercase color-d_black">Bm Ashik<span> - Company, Ceo</span></h5>
-                                            <span class="position font-la fw-500 color-d_black"> <img src="assets/img/testimonial/asana.png" alt></a></span>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="description font-la mb-40 mb-md-35 mb-sm-30 mb-xs-25">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam.</p>
-                                </div>
-
-                                <div class="testimonial__item-footer d-flex justify-content-between">
-                                    <div class="right">
-                                        <div class="starts">
-                                            <ul>
-                                                <li><span></span></li>
-                                                <li><span></span></li>
-                                                <li><span></span></li>
-                                                <li><span></span></li>
-                                                <li><span></span></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                    <div class="quote color-primary">
-                                        <i class="fas fa-quote-right"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="slider-item">
-                            <div class="testimonial__item testimonial">
-                                <div class="testimonial__item-header item-header-2 mb-35 mb-sm-25 mb-xs-20">
-                                    <div class="left d-flex align-items-center">
-                                        <div class="media overflow-hidden">
-                                            <img src="assets/img/testimonial/testimonial-3.png" class="img-fluid" alt="">
-                                        </div>
-
-                                        <div class="meta">
-                                            <h5 class="name fw-500 text-uppercase color-d_black">Bm Ashik<span> - Company, Ceo</span></h5>
-                                            <span class="position font-la fw-500 color-d_black"> <img src="assets/img/testimonial/asana.png" alt></a></span>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="description font-la mb-40 mb-md-35 mb-sm-30 mb-xs-25">
-                                    <p>Lorem ipsum Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores iure culpa exercitationem voluptatibus, ipsam dolorum? dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                        labore et dolore magna aliqua Ut enim ad minim veniam.</p>
-                                </div>
-
-                                <div class="testimonial__item-footer d-flex justify-content-between">
-                                    <div class="right">
-                                        <div class="starts">
-                                            <ul>
-                                                <li><span></span></li>
-                                                <li><span></span></li>
-                                                <li><span></span></li>
-                                                <li><span></span></li>
-                                                <li><span></span></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                    <div class="quote color-primary">
-                                        <i class="fas fa-quote-right"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="slider-item">
-                            <div class="testimonial__item testimonial">
-                                <div class="testimonial__item-header item-header-2 mb-35 mb-sm-25 mb-xs-20">
-                                    <div class="left d-flex align-items-center">
-                                        <div class="media overflow-hidden">
-                                            <img src="assets/img/testimonial/testimonial-4.png" class="img-fluid" alt="">
-                                        </div>
-
-                                        <div class="meta">
-                                            <h5 class="name fw-500 text-uppercase color-d_black">Bm Ashik<span> - Company, Ceo</span></h5>
-                                            <span class="position font-la fw-500 color-d_black"> <img src="assets/img/testimonial/asana.png" alt></a></span>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="description font-la mb-40 mb-md-35 mb-sm-30 mb-xs-25">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam.</p>
-                                </div>
-
-                                <div class="testimonial__item-footer d-flex justify-content-between">
-                                    <div class="right">
-                                        <div class="starts">
-                                            <ul>
-                                                <li><span></span></li>
-                                                <li><span></span></li>
-                                                <li><span></span></li>
-                                                <li><span></span></li>
-                                                <li><span></span></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                    <div class="quote color-primary">
-                                        <i class="fas fa-quote-right"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- testimonial end -->
-
-    <!-- client-brand start -->
-
-    <div class="client-brand bg-dark_white pb-xs-80 pb-sm-100 pb-md-100 pb-120 overflow-hidden" style="display: none;">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="client-brand__slider wow fadeInUp" data-wow-delay=".5s" data-slick='{
-                        "dots": "false", 
-                        "arrows": "false",
-                        "autoplay": "true",
-                        "slidesToShow": 6,
-                        "infinite": "true",
-                        "slidesToScroll": 1,
-                        "autoplaySpeed": 500,
-                        "responsive": [
-                            {
-                                "breakpoint": 1300,
-                                "settings": {
-                                "slidesToShow": 5
-                                }
-                            },    
-                            {
-                            "breakpoint": 1200,
-                            "settings": {
-                                "slidesToShow": 4
-                            }
-                            },
-                            {
-                                "breakpoint": 992,
-                                "settings": {
-                                "slidesToShow": 3
-                                }
-                            },
-                            {
-                                "breakpoint": 768,
-                                "settings": {
-                                "slidesToShow": 2
-                                }
-                            },
-                            {
-                            "breakpoint": 481,
-                            "settings": {
-                                "slidesToShow": 1
-                            }
-                            }
-                        ]
-                        }'>
-                        <div class="slider-item">
-                            <a href="#" class="client-brand__item">
-                                <div class="client-brand__item-media">
-                                    <img src="assets/img/brand/brand-1.png" class="img-fluid" alt="">
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="slider-item">
-                            <a href="#" class="client-brand__item">
-                                <div class="client-brand__item-media">
-                                    <img src="assets/img/brand/brand-2.png" class="img-fluid" alt="">
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="slider-item">
-                            <a href="#" class="client-brand__item">
-                                <div class="client-brand__item-media">
-                                    <img src="assets/img/brand/brand-3.png" class="img-fluid" alt="">
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="slider-item">
-                            <a href="#" class="client-brand__item">
-                                <div class="client-brand__item-media">
-                                    <img src="assets/img/brand/brand-4.png" class="img-fluid" alt="">
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="slider-item">
-                            <a href="#" class="client-brand__item">
-                                <div class="client-brand__item-media">
-                                    <img src="assets/img/brand/brand-5.png" class="img-fluid" alt="">
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="slider-item">
-                            <a href="#" class="client-brand__item">
-                                <div class="client-brand__item-media">
-                                    <img src="assets/img/brand/brand-6.png" class="img-fluid" alt="">
-                                </div>
-                            </a>
-                        </div>
-                        <div class="slider-item">
-                            <a href="#" class="client-brand__item">
-                                <div class="client-brand__item-media">
-                                    <img src="assets/img/brand/brand-1.png" class="img-fluid" alt="">
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="slider-item">
-                            <a href="#" class="client-brand__item">
-                                <div class="client-brand__item-media">
-                                    <img src="assets/img/brand/brand-2.png" class="img-fluid" alt="">
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="slider-item">
-                            <a href="#" class="client-brand__item">
-                                <div class="client-brand__item-media">
-                                    <img src="assets/img/brand/brand-3.png" class="img-fluid" alt="">
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="slider-item">
-                            <a href="#" class="client-brand__item">
-                                <div class="client-brand__item-media">
-                                    <img src="assets/img/brand/brand-4.png" class="img-fluid" alt="">
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="slider-item">
-                            <a href="#" class="client-brand__item">
-                                <div class="client-brand__item-media">
-                                    <img src="assets/img/brand/brand-5.png" class="img-fluid" alt="">
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="slider-item">
-                            <a href="#" class="client-brand__item">
-                                <div class="client-brand__item-media">
-                                    <img src="assets/img/brand/brand-6.png" class="img-fluid" alt="">
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- client-brand end -->
 
     <!-- delivery start -->
 
@@ -1123,7 +585,7 @@
                 <div class="col-xl-6">
                     <div class="section-title text-white wow fadeInUp" data-wow-delay=".3s">
                         <h2 class="text-white">De la estrategia a la entrega, <span> siempre a tiempo</span></h2>
-                        <p class="text-white mt-15 mb-30">
+                        <p class="text-white mt-15 mb-30" style="text-align: justify;">
                             
                             Llevamos más de 15 años ayudando a las empresas a optimizar la gestión de sus compras.
                             Gestiona de forma eficiente y ordenada tus compras indirectas con las soluciones de
@@ -1139,16 +601,18 @@
                     </div>
                 </div>
                 <div class="col-xl-6 text-end">
-                    <div class="video_btn wow fadeInUp" data-wow-delay=".5s">
+                    <!--<div class="video_btn wow fadeInUp" data-wow-delay=".5s">
                         <div class="theme-btn-wrapper bg-primary">
                             <a href="https://www.youtube.com/watch?v=9xwazD5SyVg" class="popup-video text-white" data-effect="mfp-move-from-top"><i class="far fa-play"></i></a>
+                          
                         </div>
-                    </div>
-
+                        
+                    </div>-->
+                    <img src="assets/img/home-4/logo_04.png">
 
                 </div>
             </div>
-            <div class="row section-padding_3">
+            <div class="row section-padding_3" style="display: none;">
                 <div class="col-xl-3 col-lg-4 col-sm-6 mt-30">
                     <div class="counter-area__item counter-area__item-three d-flex align-items-center wow fadeInUp" data-wow-delay=".3s">
                         <div class="icon color-primary">
@@ -1243,27 +707,27 @@
                      
 
                         <div class="can-help__content-btn-group d-flex flex-column flex-sm-row">
-                            <a href="tel:+1235568824" class="theme-btn d-flex flex-column flex-md-row align-items-md-center">
+                            <a href="https://wa.me/522291324289?text=Necesito%20informaci%C3%B3n%20de..." target="_blank" class="theme-btn d-flex flex-column flex-md-row align-items-md-center">
                                 <div class="icon">
                                     <i class="icon-call"></i>
 
                                 </div>
                                 <div class="text">
                                     <span class="font-la mb-10 d-block fw-500 color-d_black">Llamanos todos los dias</span>
-                                    <h5 class="fw-500 color-d_black">+123 556 8824</h5>
+                                    <h5 class="fw-500 color-d_black">(+52)2291324289</h5>
                                 </div>
                             </a>
 
-                            <a href="mailto:consulter@gmail.com" class="theme-btn d-flex flex-column flex-md-row align-items-md-center">
+                            <!--<a href="mailto:consulter@gmail.com" class="theme-btn d-flex flex-column flex-md-row align-items-md-center">
                                 <div class="icon">
                                     <i class="icon-email-1"></i>
 
                                 </div>
                                 <div class="text">
                                     <span class="font-la mb-10 d-block fw-500 color-d_black">Envíenos un correo</span>
-                                    <h5 class="fw-500 color-d_black">consulter@gmail.com</h5>
+                                    <h5 class="fw-500 color-d_black">victor_cruz_86@hotmail.com</h5>
                                 </div>
-                            </a>
+                            </a>-->
                         </div>
                     </div>
                 </div>
@@ -1278,29 +742,71 @@
                             <p style="font-size: 10px;">Nos dara mucho gusto ponernos en contactyo contigo</p>
                         </div>
 
-                        <form>
                             <div class="single-personal-info">
-                                <input type="text" id="fname" placeholder="Nombre">
+                                <input type="text" id="txtNombre" placeholder="Nombre" value="">
                             </div>
                             <div class="single-personal-info">
-                                <input type="text" id="fname" placeholder="Empresa">
+                                <input type="text" id="txtEmpresa" placeholder="Empresa" value="">
                             </div>
                             <div class="single-personal-info">
-                                <input type="text" id="fname" placeholder="Telefono">
+                                <input type="text" id="txtTelefono" placeholder="Teléfono" value="">
                             </div>
                           
                             <div class="single-personal-info">
-                                <input type="email" id="email" placeholder="Correo">
+                                <input type="email" id="txtCorreo" placeholder="Correo" value="">
                             </div>
                             <div class="single-personal-info">
-                                <input type="text" id="fname" placeholder="Estado">
+                                <select id="txtEstado" name="estado" class="contact-form-select">
+                                    <option value="">Selecciona un estado</option>
+                                    <option value="Aguascalientes">Aguascalientes</option>
+                                    <option value="Baja California">Baja California</option>
+                                    <option value="Baja California Sur">Baja California Sur</option>
+                                    <option value="Campeche">Campeche</option>
+                                    <option value="Chiapas">Chiapas</option>
+                                    <option value="Chihuahua">Chihuahua</option>
+                                    <option value="Coahuila">Coahuila</option>
+                                    <option value="Colima">Colima</option>
+                                    <option value="Ciudad de México">Ciudad de México</option>
+                                    <option value="Durango">Durango</option>
+                                    <option value="Guanajuato">Guanajuato</option>
+                                    <option value="Guerrero">Guerrero</option>
+                                    <option value="Hidalgo">Hidalgo</option>
+                                    <option value="Jalisco">Jalisco</option>
+                                    <option value="Estado de México">Estado de México</option>
+                                    <option value="Michoacán">Michoacán</option>
+                                    <option value="Morelos">Morelos</option>
+                                    <option value="Nuevo León">Nuevo León</option>
+                                    <option value="Oaxaca">Oaxaca</option>
+                                    <option value="Puebla">Puebla</option>
+                                    <option value="Quintana Roo">Quintana Roo</option>
+                                    <option value="Querétaro">Querétaro</option>
+                                    <option value="Sinaloa">Sinaloa</option>
+                                    <option value="San Luis Potosí">San Luis Potosí</option>
+                                    <option value="Sonora">Sonora</option>
+                                    <option value="Tabasco">Tabasco</option>
+                                    <option value="Tamaulipas">Tamaulipas</option>
+                                    <option value="Tlaxcala">Tlaxcala</option>
+                                    <option value="Veracruz">Veracruz</option>
+                                    <option value="Yucatán">Yucatán</option>
+                                    <option value="Zacatecas">Zacatecas</option>
+                                </select>
+                                
                             </div>
                             <div class="single-personal-info">
-                                <textarea placeholder="Cuéntanos ¿Cuál es tu necesidad?"></textarea>
+                                <textarea id="txtComentario" placeholder="Cuéntanos ¿Cuál es tu necesidad?" value=""></textarea>
                             </div>
 
-                            <button type="submit" class="theme-btn btn-sm btn__2">Consulta gratuita <i class="far fa-chevron-double-right"></i></button>
-                        </form>
+                            <div class="single-personal-info">
+                                <select id="txtTipo" name="estado" class="contact-form-select">
+                                    <option value="">¿Para quien buscas capacitación?</option>
+                                    <option value="Para mi">Para mi</option>
+                                    <option value="Para un grupo de mi empresa">Para un grupo de mi empresa</option>
+                                    
+                                </select>
+                            </div>
+
+                            <button type="submit" class="theme-btn btn-sm btn__2" onclick="enviarCorreo()">Enviar <i class="far fa-chevron-double-right"></i></button>
+                  
                     </div>
                 </div>
             </div>
@@ -1317,17 +823,14 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="single-footer-wid site_info_box">
-                            <a href="index.html" class="d-block mb-20">
-                                <img src="./assets/img/home-4/logo-f_04.png" alt="">
-                            </a>
-
+                        
                             <div class="description font-la color-white">
                                 <p>Somos una firma especializada en la optimización de procesos de adquisiciones para empresas medianas y grandes.</p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-6">
+                    <!--<div class="col-lg-6">
                         <div class="single-footer-wid newsletter_widget">
                             <h6 class="title d-flex align-items-center color-white mb-30"><img src="assets/img/icon/notification.svg" alt="">Manténgase actualizado: obtenga actualizaciones con los últimos temas.</h6>
 
@@ -1338,7 +841,8 @@
                                 </form>
                             </div>
                         </div>
-                    </div>
+                    </div>-->
+
                 </div>
             </div>
         </div>
@@ -1358,7 +862,7 @@
                                         </div>
 
                                         <div class="contact-info font-la color-white">
-                                            <p>Lun - Vie / 08am : 12pm</p>
+                                            <p>Lun - Vie:  08am - 12pm</p>
                                         </div>
                                     </li>
 
@@ -1368,7 +872,7 @@
                                         </div>
 
                                         <div class="contact-info font-la color-white">
-                                            <p>Sab - Dom / 08am : 12pm</p>
+                                            <p>Sab: 09am - 12pm</p>
                                         </div>
                                     </li>
 
@@ -1376,14 +880,14 @@
                                 </ul>
                             </div>
 
-                            <div class="social-profile">
+                           <!--- <div class="social-profile">
                                 <ul>
                                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                     <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                                     <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                                 </ul>
-                            </div>
+                            </div>-->
                         </div>
                     </div>
                 </div>
@@ -1439,7 +943,8 @@
                 <div class="col-md-6 col-xl-3">
                     <div class="single-footer-wid">
                         <h4 class="wid-title mb-30 color-white">Ubicación</h4>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.6288889943407!2d89.24179957479988!3d24.008878578805188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fe9bfb7d4038fb%3A0x2e698dd3196ad36f!2sRRDevs!5e0!3m2!1sen!2sbd!4v1707636832892!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120595.34140266119!2d-96.23231612426315!3d19.168785574920456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c3414245ca78c5%3A0x18a4d642e936019b!2sHeroica%20Veracruz%2C%20Ver.%2C%20Mexico!5e0!3m2!1sen!2sbd!4v1726596444976!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
                 <!-- /.col-lg-3 - single-footer-wid -->
@@ -1450,13 +955,12 @@
             <div class="container">
                 <div class="footer-bottom-content d-flex flex-column flex-md-row justify-content-between align-items-center">
                     <div class="coppyright text-center text-md-start">
-                        © 2024 <a href="index.html"> Consultores</a> | Todos los derechos reservados by <a href="https://blapeer.blogspot.com/p/inicio.html">Blapeer</a>
+                        © 2024 <a href="index.html">Procura Consultores</a> | Todos los derechos reservados 
                     </div>
 
                     <div class="footer-bottom-list last_no_bullet">
                         <ul>
-                            <li><a href="#">Terminos y Condiviones</a></li>
-                            <li><a href="#">Politica de privacidad</a></li>
+                            <li><a href="politicas.html" target="_blank">Nuestras Políticas</a></li>
                         </ul>
                     </div>
                 </div>
@@ -1482,13 +986,15 @@
 
 
 
-
-
 <!-- Bootstrap JS -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
 
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
+<script src="assets/js/notis.js"></script>
+
+<script src="assets/js/cute-alert.js"></script>
 
 <script>
     function nivel1(){
@@ -1693,20 +1199,54 @@
 
 
 
-
-
-
-
-
-
-
-  
-
-
-
     function cerrarModal(){
         $("#exampleModal").modal("hide");
     }
+
+    
+function enviarCorreo() {
+
+   
+    
+      var nom = document.getElementById("txtNombre").value;
+      var emp = document.getElementById("txtEmpresa").value;
+      var tel = document.getElementById("txtTelefono").value;
+      var cor = document.getElementById("txtCorreo").value;
+      var est = document.getElementById("txtEstado").value;
+      var com = document.getElementById("txtComentario").value;
+      var tip = document.getElementById("txtTipo").value;
+
+
+      if(nom != "" || emp != "" || tel != "" || cor != "" || est != "" || com != "" || tip != ""){
+        $.ajax({
+          type: "GET",
+          crossDomain: true,   
+          url: "https://amahcarev2.somee.com/requestnoti.ashx?Comando=EnviarConsulta&Nom="+nom+"&Empresa="+emp+"&tel="+tel+"&Email="+cor+"&Estado="+est+"&Desc="+com+"&Tipo="+tip ,
+          success: function (result) {
+            msgAlert("success", "Mensaje", "Datos enviados");
+             document.getElementById("txtNombre").value = "";
+             document.getElementById("txtEmpresa").value = "";
+             document.getElementById("txtTelefono").value = "";
+             document.getElementById("txtCorreo").value = ""
+             document.getElementById("txtEstado").value = "";
+             document.getElementById("txtComentario").value = "";
+             document.getElementById("txtTipo").value = "";
+
+          },
+          error: function (jqXmlHttpRequest, textStatus, errorThrown) {
+               msgAlert("error", "Mensaje", "Ocurrio un error");
+          }
+      });
+      }
+      else{
+        msgAlert("info", "Mensaje", "Agregue los datos solicitados");
+      }
+
+      
+   
+      
+               
+}
 
 </script>
 
